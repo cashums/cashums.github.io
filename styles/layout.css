@@ -1,0 +1,27 @@
+/* I did some digging on flexboxes and decided to implement them before officially digging into CSS since they're more modular and apatable than HTML tables. much of this code was inspired by the CSS file on Dr. Crites's website + random additions from the slides and StackOverflow */
+
+.experience-entry {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+
+.experience-top-row {
+    display: flex;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.experience-top-row>div {
+    flex: 1;
+}
+
+.experience-top-row>div:nth-child(2) {
+    text-align: center;
+}
+
+.experience-top-row>div:nth-child(3) {
+    text-align: right;
+}
