@@ -1,6 +1,6 @@
 /* I did some digging on flexboxes and decided to implement them before officially digging into CSS since they're more modular and apatable than HTML tables. much of this code was inspired by the CSS file on Dr. Crites's website + random additions from the slides and StackOverflow */
 
-.experience-entry {
+.experience_project-entry {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
@@ -8,20 +8,27 @@
     padding: 15px;
 }
 
-.experience-top-row {
+.experience_project-top-row {
     display: flex;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
-.experience-top-row>div {
+.experience_project-top-row>div {
     flex: 1;
 }
 
-.experience-top-row>div:nth-child(2) {
+.experience_project-top-row>div:nth-child(2) {
     text-align: center;
 }
 
-.experience-top-row>div:nth-child(3) {
+.experience_project-top-row>div:nth-child(3) {
     text-align: right;
+}
+
+table {
+    margin: 0 0 0 0;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    width: 100% 
 }
