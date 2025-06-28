@@ -6,12 +6,16 @@
     margin-bottom: 20px;
     border: 1px solid #ccc;
     padding: 15px;
+    font-family: 'consolas';
+    color: #f1ebeb;
 }
 
 .experience_project-top-row {
     display: flex;
     font-weight: bold;
     margin-bottom: 10px;
+    font-family: 'consolas';
+    color: #f1ebeb;
 }
 
 .experience_project-top-row>div {
@@ -24,11 +28,4 @@
 
 .experience_project-top-row>div:nth-child(3) {
     text-align: right;
-}
-
-table {
-    margin: 0 0 0 0;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    width: 100% 
 }
