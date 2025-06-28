@@ -1,0 +1,64 @@
+table {
+    margin: 0 0 0 0;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    width: 100%;
+    color: #f1ebeb;
+}
+
+p {
+    margin-left: 20px;
+    font-family: 'consolas';
+    color: #f1ebeb;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: 'Courier New';
+    color: #E5B75B;
+}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Courier New';
+    color: #98C379;
+}
+
+h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Courier New';
+    color: #E06C73;
+}
+
+ul {
+    margin-left: 40px;
+    margin-bottom: 20px;
+    font-family: 'consolas';
+    color: #f1ebeb;
+}
+
+li {
+    margin-bottom: 5px;
+    margin-left: -40px;
+    font-family: 'consolas';
+    color: #f1ebeb;
+}
+
+body {
+    background-color: #181A1F;
+}
+
+a {
+    font-family: 'consolas';
+    text-decoration: none;
+    color: #56B6C2;
+    text-align: center;
+}
+
+td {
+    font-family: 'consolas';
+    color: #f1ebeb;
+}
