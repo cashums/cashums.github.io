@@ -7,6 +7,7 @@ table {
 }
 
 p {
+    margin-left: 20px;
     font-family: 'consolas';
     color: #f1ebeb;
 }
@@ -41,10 +42,23 @@ ul {
 
 li {
     margin-bottom: 5px;
+    margin-left: -40px;
     font-family: 'consolas';
     color: #f1ebeb;
 }
 
 body {
     background-color: #181A1F;
+}
+
+a {
+    font-family: 'consolas';
+    text-decoration: none;
+    color: #56B6C2;
+    text-align: center;
+}
+
+td {
+    font-family: 'consolas';
+    color: #f1ebeb;
 }

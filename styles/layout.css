@@ -8,6 +8,8 @@
     padding: 15px;
     font-family: 'consolas';
     color: #f1ebeb;
+
+    margin-left: 20px;
 }
 
 .experience_project-top-row {
@@ -28,4 +30,9 @@
 
 .experience_project-top-row>div:nth-child(3) {
     text-align: right;
+}
+
+.link-container {
+    text-align: center;
+    margin: 10px 0;
 }
