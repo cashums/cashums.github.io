@@ -36,3 +36,8 @@
     text-align: center;
     margin: 10px 0;
 }
+
+img.selfie {
+    float: left;
+    padding-right: 15px;
+}
