@@ -41,3 +41,8 @@ img.selfie {
     float: left;
     padding-right: 15px;
 }
+
+.moveimage {
+    position: relative;
+    top: 3px;
+}
